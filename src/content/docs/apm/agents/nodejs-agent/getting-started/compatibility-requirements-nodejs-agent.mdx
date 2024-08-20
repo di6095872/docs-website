@@ -269,7 +269,7 @@ frameworks or libraries, you'll need to instrument the agent yourself using the
 [Node.js agent API](https://newrelic.github.io/node-newrelic/API.html).
 
 <Callout variant="important">
-   The latest supported version may not reflect the most recent supported
+The latest supported version may not reflect the most recent supported
 version.
 </Callout>
 
@@ -324,7 +324,10 @@ version.
 | `when` | 3.7.0 | 3.7.8 | 1.26.2 |
 | `winston` | 3.0.0 | 3.14.2 | 8.11.0 |
 
-*When package is not specified, support is within the `newrelic` package.
+.
+<Callout variant="tip">
+When package is not specified, support is within the `newrelic` package.
+</Callout>
 
 ## AI Monitoring Support
 
@@ -344,7 +347,7 @@ Through the `@aws-sdk/client-bedrock-runtime` module, we support:
 | Meta Llama3 | ❌ | ✅ | - |
 
 <Callout variant="important">
-  If a model supports streaming, we also instrument the streaming variant.
+If a model supports streaming, we also instrument the streaming variant.
 </Callout>
 
 
